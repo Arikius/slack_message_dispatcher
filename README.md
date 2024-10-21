@@ -175,5 +175,3 @@ If the service is running properly, it will start automatically in the backgroun
 Feel free to open issues or contribute by submitting pull requests!
 
 ---
-
-This `README.md` includes all the necessary information to set up, run, and deploy the Slack Message Dispatcher as a background service. Let me know if you need further modifications!
