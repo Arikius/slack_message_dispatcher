@@ -1,0 +1,30 @@
+{
+    "slack_bot_token": "xoxb-your-mock-slack-bot-token",
+    "source_channel": "C01MOCKCHANNEL",
+    "rules": [
+        {
+            "conditions": [
+                {"keyword": "example1"}
+            ],
+            "target_channels": ["C02MOCKCHANNEL1"]
+        },
+        {
+            "conditions": [
+                {"keyword": "example2"}
+            ],
+            "target_channels": ["C02MOCKCHANNEL2"]
+        },
+        {
+            "regex": "\\b(mock1|mock2|mock3|mockcorp|examplecorp|samplecorp)\\b",
+            "target_channels": ["C03MOCKCHANNEL"]
+        },
+        {
+            "regex": "(mockcountry)",
+            "target_channels": ["C04MOCKCHANNEL"]
+        },
+        {
+            "regex": "(mockregion)",
+            "target_channels": ["C05MOCKCHANNEL"]
+        }
+    ]
+}
